@@ -103,9 +103,9 @@ let Jokes = [
 
 
 let random_number = Math.floor(Math.random() * 51);
-console.log(random_number);
+// console.log(random_number);
 let random_joke = Jokes[random_number]
-console.log(random_joke);
+// console.log(random_joke);
 
 
 let joke_pre = document.getElementsByClassName("joke")[0];
