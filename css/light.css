@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.daa{
+    /* width: 100%; */
+    /* height: 5em; */
+    /* background-color: rgb(221 93 93); */
+    margin: 1em 2em;
+    box-shadow: 0 0 19px -12px black;
+    border-radius: 1em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.daa h2{
+    font-size: 3em;
+    font-family: 'ADLaM Display', cursive;
+}
+
+.container{
+    margin: 1em 2em;
+    /* height: 10em; */
+    box-shadow: 0 0 19px -12px black;
+    border-radius: 1em;
+    height: 40em;
+
+    background-color: rgb(215, 252, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.bulb{
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+}
+
+.bulbGlow{
+    filter: drop-shadow(0px 0px 50px yellow);
+}
+
+#trigger{
+    padding: 0.5em;
+    margin: 1em;
+    height: 3em;
+    width: 7em;
+    background-color: rgb(213, 100, 100);
+    border: transparent;
+    cursor: pointer;
+}
+

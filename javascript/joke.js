@@ -102,11 +102,19 @@ let Jokes = [
 ]
 
 
-let random_number = Math.floor(Math.random() * 51);
 // console.log(random_number);
-let random_joke = Jokes[random_number]
 // console.log(random_joke);
-
-
+let random_joke
+let random_number
+let nexta = document.getElementById("nexta")
 let joke_pre = document.getElementsByClassName("joke")[0];
+
+random_number = Math.floor(Math.random() * 51);
+random_joke = Jokes[random_number]
 joke_pre.innerHTML = random_joke;
+
+nexta.onclick = () => {
+    random_number = Math.floor(Math.random() * 51);
+    random_joke = Jokes[random_number]
+    joke_pre.innerHTML = random_joke;
+}
