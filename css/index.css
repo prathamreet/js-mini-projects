@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.daa h2{
+    font-size: 3em;
+    font-family: 'ADLaM Display', cursive;
+}
+
 .daa{
     /* width: 100%; */
     /* height: 5em; */
@@ -16,11 +21,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.daa h2{
-    font-size: 3em;
-    font-family: 'ADLaM Display', cursive;
 }
 
 .navbar{
@@ -49,44 +49,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
     cursor: pointer;
-}
-
-.container{
-    margin: 1em 2em;
-    /* height: 10em; */
-    box-shadow: 0 0 19px -12px black;
-    border-radius: 1em;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-.joke{
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1.5em;
-    margin: 2em;
-}
-
-.next{
-    font-family: 'Varela Round', sans-serif;
-    background-color: rgb(201, 201, 201);
-    color: black;
-    text-decoration: none;
-    font-size: 1.4em;
-    margin: 1em;
-    width: 10em;
-    height: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.3em;
-    cursor: pointer;
-}
-
-.next:hover{
-    background-color: lightskyblue;
 }
